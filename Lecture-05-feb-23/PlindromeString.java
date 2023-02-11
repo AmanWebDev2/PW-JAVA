@@ -1,22 +1,13 @@
 import java.util.Scanner;
 
 public class PlindromeString {
-    
-    String inputVal;
     String str = "";
     String rev = "";
 
     void takeInputFromUser() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a value: ");
-        inputVal = scan.next();
-        System.out.println(inputVal.getClass().getSimpleName() );
-        if(inputVal.getClass().getSimpleName().equals("String")) {
-            str = inputVal;
-        }else {
-            System.out.println("Enter only string type");
-            takeInputFromUser();
-        }
+        str = scan.next(); //string
     }
     
     void palindrome() {
