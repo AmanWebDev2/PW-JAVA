@@ -69,10 +69,7 @@ In 3 ways:
 2. new keyword
     * ```String varname = new String("Aman"); ```
 3. Using character Array
-    * ``` 
-    char[] ch = { 'A','m','a','n' };
-    String varname = new String(char);
-      ```
+    * ```    char[] ch = { 'A','m','a','n' }; String varname = new String(char);  ```
 
 ## Q4. What is a String constant pool in java ?
 String constant pool in java is a special storage space in java heap memory where string literals are stored
