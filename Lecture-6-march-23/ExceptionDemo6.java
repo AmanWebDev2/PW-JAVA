@@ -20,7 +20,7 @@ public class ExceptionDemo6 {
                 // throw e;
 
                 // custom exception
-                CustomException exc = new CustomException("Negative number");
+                Exception exc = new CustomException("Negative number");
                 throw exc;
             }else {
                 int res = num1/num2;
