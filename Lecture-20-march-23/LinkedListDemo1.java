@@ -19,12 +19,25 @@ public class LinkedListDemo1 {
         ll2.add("linkedList2");
         ll2.addAll(ll1);
         System.out.println(ll2);
-
+        System.out.println(ll2.get(0));
+        System.out.println(ll2.indexOf(2333));
+        System.out.println(ll2.contains(true));
+        System.out.println(ll2.getLast());
+        System.out.println(ll2.getFirst());
         System.out.println(ll2.peek()); // return first obj
+        ll2.push("pushed");
+        ll2.pop();
         System.out.println(ll2);
 
         System.out.println(ll2.poll()); // return first obj but remove from collection
         System.out.println(ll2);
+
+        List ll3 = new LinkedList();
+        Deque ll4 = new LinkedList();
+        //  the only problem is now we cannot access linkedlist method 
+        // because Parent type reference cannot access specialised method
+
+
 
     }
 }
