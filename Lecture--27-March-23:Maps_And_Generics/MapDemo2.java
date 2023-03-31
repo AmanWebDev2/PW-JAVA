@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Map.Entry;
 
 // HashMap vs LinkedHashMap
 
@@ -52,7 +53,11 @@ public class MapDemo2 {
         Set entrySet = hm.entrySet();
         Iterator itr3 = entrySet.iterator();
         while(itr3.hasNext()) {
-            System.out.println(itr3.next());
+            // System.out.println(itr3.next());
+            Map.Entry entry = (Entry)itr3.next();
+            // System.out.println(entry);
+            System.out.println("key: "+entry.getKey()+" "+"value: "+entry.getValue());
+
         }
     }    
 }
