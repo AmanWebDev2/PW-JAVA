@@ -15,7 +15,6 @@ class Demo1 implements Runnable {
         try {
             Thread.sleep(3000); //blocked
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println("error "+e);
         }
         System.out.println("child thread task complete");

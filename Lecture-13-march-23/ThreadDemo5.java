@@ -19,7 +19,6 @@ class Calc extends Demo implements Runnable {
             int num = scan.nextInt();
             System.out.println(num);
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println("error "+e);
         }
         System.out.println("after try catch");
